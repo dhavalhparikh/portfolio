@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <title>Eventline | IFTTT for developers 🤖</title>
+        <!-- Inspired from https://eventline.surebot.io/ -->
+        <title>Dhaval Parikh</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
         <meta name="description" content="Eventline is a micro-framework for routing and handling events for bots and applications."/>
-        <meta property="og:site_name" content="Eventline | IFTTT for developers 🤖"/>
-        <meta property="og:title" content="Eventline | IFTTT for developers 🤖"/>
+        <meta property="og:site_name" content="Dhaval Parikh's portfolio"/>
+        <meta property="og:title" content="Dhaval Parikh"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:image" content="https://eventline.surebot.io/assets/images/card.jpg?v58804007853051"/>
-        <meta property="og:description" content="Eventline is a micro-framework for routing and handling events for bots and applications."/>
-        <meta property="og:url" content="https://eventline.surebot.io"/>
+        <!-- <meta property="og:image" content="https://eventline.surebot.io/assets/images/card.jpg?v58804007853051"/> -->
+        <meta property="og:description" content="Dhaval's personal project and a showcase of his work."/>
+        <!-- <meta property="og:url" content="https://eventline.surebot.io"/> -->
         <meta property="twitter:card" content="summary_large_image"/>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400italic" rel="stylesheet" type="text/css"/>
         <link rel="icon" type="image/png" href="assets/images/favicon.png?v58804007853051"/>
@@ -138,7 +139,6 @@
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
-                /*background-image: linear-gradient(to top, rgba(0,0,0,0.349), rgba(0,0,0,0.349)), url('assets/images/bg.jpg?v58804007853051');*/
                 background-image: linear-gradient(to top, rgba(0,0,0,0.349), rgba(0,0,0,0.349)), url('images/bg.jpg');
                 background-position: 0% 0%, center;
                 background-repeat: repeat, no-repeat;
@@ -649,22 +649,22 @@
             </style>
         </noscript>
         <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }
-                ,
-                i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            }
-            )(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-            ga('create', 'UA-65763937-3', 'auto');
-            ga('send', 'pageview');
+            // (function(i, s, o, g, r, a, m) {
+            //     i['GoogleAnalyticsObject'] = r;
+            //     i[r] = i[r] || function() {
+            //         (i[r].q = i[r].q || []).push(arguments)
+            //     }
+            //     ,
+            //     i[r].l = 1 * new Date();
+            //     a = s.createElement(o),
+            //     m = s.getElementsByTagName(o)[0];
+            //     a.async = 1;
+            //     a.src = g;
+            //     m.parentNode.insertBefore(a, m)
+            // }
+            // )(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            // ga('create', 'UA-65763937-3', 'auto');
+            // ga('send', 'pageview');
         </script>
     </head>
     <body class="is-loading">
@@ -685,47 +685,46 @@
         <div id="wrapper">
             <div id="main">
                 <div class="inner">
-                    <h1 id="text03">Eventline 🤖</h1>
-                    <p id="text04">Micro-framework for routing and handling events for bots and applications. IFTTT for developers 👩‍💻👨‍💻</p>
+                    <h1 id="text03">Welcome!</h1>
+                    <p id="text04">This is a personal project and a showcase of my work.</p>
                     <ul class="buttons" id="buttons02">
                         <li>
-                            <a target="_blank" href="https://github.com/surebot/Eventline/" class="button n01">View on GitHub</a>
+                            <a target="_blank" href="https://github.com/dhavalhparikh" class="button n01">View on GitHub</a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://blog.surebot.io/introducing-eventline-ac60f1c328fe/" class="button n02">Read more</a>
+                            <a target="_blank" href="" class="button n02">Read more</a>
                         </li>
                     </ul>
                     <p id="text01">
-                        Built by <a href="http://bottr.co/">Bottr</a>
-                        ❤️ <a href="http://surebot.io/">Sure</a>
+                        Built by <a href="https://www.linkedin.com/in/dhavalparikh26">Dhaval Parikh</a>
                     </p>
                     <ul class="icons" id="icons01">
                         <li>
-                            <a class="n01" target="_blank" href="https://github.com/surebot/Eventline/">
+                            <a class="n01" target="_blank" href="https://github.com/dhavalhparikh">
                                 <svg>
                                     <use xlink:href="#icon-907"></use>
                                 </svg>
                                 <span class="label">GitHub</span>
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a class="n02" target="_blank" href="https://blog.surebot.io/">
                                 <svg>
                                     <use xlink:href="#icon-935"></use>
                                 </svg>
                                 <span class="label">Medium</span>
                             </a>
-                        </li>
-                        <li>
+                        </li> -->
+                        <!-- <li>
                             <a class="n03" target="_blank" href="https://twitter.com/surebot/">
                                 <svg>
                                     <use xlink:href="#icon-905"></use>
                                 </svg>
                                 <span class="label">Twitter</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li>
-                            <a class="n04" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%68%65%6c%6c%6f%40%73%75%72%65%62%6f%74%2e%69%6f">
+                            <a class="n04" href="mailto:dhavalhparikh26@gmail.com">
                                 <svg>
                                     <use xlink:href="#icon-90a"></use>
                                 </svg>
