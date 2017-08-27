@@ -19,6 +19,30 @@ def name(name):
 def test():
     return static_file('main.html', root='./views')
 
+@route('/landing')
+def landing_page():
+    return static_file('main_try.html', root='./views')
+
+@route('/portfolio')
+def portfolio():
+    # return static_file('index.html', root='./views')
+    return template('index')
+
+# route static files
+# @route('/images/<filename>:re:.*\.jpg>')
+@route('/images/<filename>')
+def send_jpg(filename):
+    print(str(filename))
+    return static_file(filename, root=os.getcwd()+'/views/images')
+
+@route('/scripts/<filename>:re:.*\.js>')
+def send_js(filename):
+    return static_file(filename, root=os.getcwd()+'/scripts')
+
+@route('/css/<filename>:re:.*\.css>')
+def send_js(filename):
+    return static_file(filename, root=os.getcwd()+'/views')
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
-    run(host='0.0.0.0', port=port, debug=True)
+    run(host='0.0.0.0', port=port, debug=True, reloader=True)
