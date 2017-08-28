@@ -139,7 +139,13 @@
                 -webkit-transform: scale(1);
                 -ms-transform: scale(1);
                 transform: scale(1);
-                background-image: linear-gradient(to top, rgba(0,0,0,0.349), rgba(0,0,0,0.349)), url('images/bg.jpg');
+                /*background-image: linear-gradient(to top, rgba(0,0,0,0.349), rgba(0,0,0,0.349)), url('images/bg.jpg');*/
+                /* gradients from uigradients.com */
+                /*background-image: linear-gradient(to right, #00cc99 0%, #3333cc 100%);*/ /* Blue -> Green gradient */
+                /*background-image: linear-gradient(to right, #005C97 0%, #363795 100%); /* Blue gradient */
+                /*background-image: linear-gradient(to right, #6441A5 0%, #2a0845 100%); /* twitch gradient */
+                /*background-image: linear-gradient(to right, #5f2c82 0%, #49a09d 100%); /* calm darya */
+                background-image: linear-gradient(to right, #514A9D 0%, #24C6DC 100%); /* mantle */
                 background-position: 0% 0%, center;
                 background-repeat: repeat, no-repeat;
                 background-size: auto, cover;
