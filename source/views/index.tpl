@@ -508,6 +508,10 @@
                 fill: #FF828A;
             }
 
+            .img-circle {
+              border-radius: 50%;
+            }
+
             @media (max-width: 1680px) {
                 html {
                     font-size: 13pt;
@@ -705,6 +709,7 @@
                     <h1 id="text03">Hi!</h1>
                     <p id="text04">I'm Dhaval Parikh.</p>
                     <p id="text04">Welcome to my personal webpage!</p>
+                    <!-- <img class="img-circle" src="/images/dhaval_prisma.jpg" align="right" style="width:256px;height:256px;"> -->
                     <ul class="buttons" id="buttons02">
                         <li>
                             <a target="_blank" href="" class="button n02">About me</a>
@@ -733,6 +738,14 @@
                             <span class="label">LinkedIn</span>
                           </a>
                         </li>
+                        <li>
+                            <a class="n04" href="mailto:dhavalhparikh26@gmail.com">
+                                <svg>
+                                    <use xlink:href="#icon-90a"></use>
+                                </svg>
+                                <span class="label">Email</span>
+                            </a>
+                        </li>
                         <!-- <li>
                             <a class="n02" target="_blank" href="https://blog.surebot.io/">
                                 <svg>
@@ -749,14 +762,6 @@
                                 <span class="label">Twitter</span>
                             </a>
                         </li> -->
-                        <li>
-                            <a class="n04" href="mailto:dhavalhparikh26@gmail.com">
-                                <svg>
-                                    <use xlink:href="#icon-90a"></use>
-                                </svg>
-                                <span class="label">Email</span>
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
