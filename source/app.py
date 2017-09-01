@@ -37,6 +37,11 @@ def send_jpg(filename):
     print(str(filename))
     return static_file(filename, root=os.getcwd()+'/views/images')
 
+@app.route('/files/<filename>')
+def send_file(filename):
+    print(str(filename))
+    return static_file(filename, root=os.getcwd()+'/views/files')
+
 @app.route('/scripts/<filename>:re:.*\.js>')
 def send_js(filename):
     return static_file(filename, root=os.getcwd()+'/scripts')
