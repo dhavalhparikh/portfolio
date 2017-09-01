@@ -37,7 +37,7 @@ def send_jpg(filename):
     print(str(filename))
     return static_file(filename, root=os.getcwd()+'/views/images')
 
-@app.route('/files/<filename>')
+@app.route('/dev/files/<filename>')
 def send_file(filename):
     print(str(filename))
     return static_file(filename, root=os.getcwd()+'/views/files')
