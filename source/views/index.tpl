@@ -5,13 +5,13 @@
         <title>Dhaval Parikh</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
-        <meta name="description" content="Eventline is a micro-framework for routing and handling events for bots and applications."/>
+        <meta name="description" content="Welcome to Dhaval's personal website."/>
         <meta property="og:site_name" content="Dhaval Parikh's portfolio"/>
         <meta property="og:title" content="Dhaval Parikh"/>
         <meta property="og:type" content="article"/>
-        <!-- <meta property="og:image" content="https://eventline.surebot.io/assets/images/card.jpg?v58804007853051"/> -->
-        <meta property="og:description" content="Dhaval's personal project and a showcase of his work."/>
-        <!-- <meta property="og:url" content="https://eventline.surebot.io"/> -->
+        <meta property="og:image" content="https://dhavalhparikh.com/images/dhaval_bg.jpg"/>
+        <meta property="og:description" content="Welcome to Dhaval's personal website."/>
+        <meta property="og:url" content="https://dhavalhparikh.com"/>
         <meta property="twitter:card" content="summary_large_image"/>
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400italic" rel="stylesheet" type="text/css"/>
         <link rel="icon" type="image/png" href="assets/images/favicon.png?v58804007853051"/>
@@ -708,7 +708,7 @@
                 <div class="inner">
                     <h1 id="text03">Hi!</h1>
                     <p id="text04">I'm Dhaval Parikh.</p>
-                    <p id="text04">Welcome to my personal webpage!</p>
+                    <p id="text04">Welcome to my personal website!</p>
                     <!-- <img class="img-circle" src="/images/dhaval_prisma.jpg" align="right" style="width:256px;height:256px;"> -->
                     <ul class="buttons" id="buttons02">
                         <li>
