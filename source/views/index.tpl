@@ -712,7 +712,7 @@
                     <!-- <img class="img-circle" src="/images/dhaval_prisma.jpg" align="right" style="width:256px;height:256px;"> -->
                     <ul class="buttons" id="buttons02">
                         <li>
-                            <a target="_blank" href="https://drive.google.com/open?id=0B99b3G0njMmfT1ViUFJYWFpQMk0" class="button n02">About me</a>
+                            <a target="_blank" href="https://drive.google.com/open?id=0B99b3G0njMmfUTRFYlc5cEZKakU" class="button n02">About me</a>
                         </li>
                         <li>
                             <a target="_blank" href="https://github.com/dhavalhparikh" class="button n01">View on GitHub</a>
